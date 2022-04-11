@@ -1,0 +1,38 @@
+.main-header {
+  background-color: $primary-color;
+  color: white;
+
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+  padding: 10px;
+
+  position: sticky;
+  top: 0;
+
+  .menu ul {
+    display: flex;
+    
+    li {
+      display: flex;
+      justify-content: center;
+
+      height: 30px;
+      width: 100px;
+      margin-left: 10px;
+      padding: 6px;
+      list-style: none;
+      cursor: pointer;
+
+      border: 1.5px solid white;
+      border-radius: 15px;
+      font-size: 12px;
+
+      a {
+        text-decoration: none;
+        color: white;
+      }
+    }
+  }
+}
